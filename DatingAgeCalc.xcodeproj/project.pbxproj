@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DatingAgeCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DatingAgeCalcAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2899E5220DE3E06400AC0155 /* DatingAgeCalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DatingAgeCalcViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* DatingAgeCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DatingAgeCalcViewController.m */; };
+		65EF3B961112620A00CAECD5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38B7E1086AA8400AA3142 /* icon.png */; };
+		65EF3B971112620A00CAECD5 /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38B7F1086AA8400AA3142 /* question.png */; };
+		65EF3B981112620A00CAECD5 /* ballfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38C071086CAA400AA3142 /* ballfinal.png */; };
+		65EF3B991112620A00CAECD5 /* heartbreakfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38C081086CAA400AA3142 /* heartbreakfinal.png */; };
+		65EF3B9A1112620A00CAECD5 /* heartfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38C091086CAA400AA3142 /* heartfinal.png */; };
+		65EF3B9B1112620A00CAECD5 /* jailbaitfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38C0A1086CAA400AA3142 /* jailbaitfinal.png */; };
+		65EF3B9C1112620A00CAECD5 /* bkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FF216108BA94900F8E929 /* bkg.png */; };
+		65EF3B9E1112620A00CAECD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		65EF3B9F1112620A00CAECD5 /* DatingAgeCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DatingAgeCalcAppDelegate.m */; };
+		65EF3BA01112620A00CAECD5 /* DatingAgeCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DatingAgeCalcViewController.m */; };
+		65EF3BA21112620A00CAECD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		65EF3BA31112620A00CAECD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		65EF3BAD1112620B00CAECD5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EF3BAB1112620B00CAECD5 /* MainWindow.xib */; };
+		65EF3BAE1112620B00CAECD5 /* DatingAgeCalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EF3BAC1112620B00CAECD5 /* DatingAgeCalcViewController.xib */; };
+		65EF3BC21112644400CAECD5 /* bkg-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EF3BC11112644400CAECD5 /* bkg-ipad.png */; };
+		6F0FF217108BA94900F8E929 /* bkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FF216108BA94900F8E929 /* bkg.png */; };
+		6FB38B841086AA8400AA3142 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38B7E1086AA8400AA3142 /* icon.png */; };
+		6FB38B851086AA8400AA3142 /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38B7F1086AA8400AA3142 /* question.png */; };
+		6FB38C0B1086CAA400AA3142 /* ballfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38C071086CAA400AA3142 /* ballfinal.png */; };
+		6FB38C0C1086CAA400AA3142 /* heartbreakfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38C081086CAA400AA3142 /* heartbreakfinal.png */; };
+		6FB38C0D1086CAA400AA3142 /* heartfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38C091086CAA400AA3142 /* heartfinal.png */; };
+		6FB38C0E1086CAA400AA3142 /* jailbaitfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB38C0A1086CAA400AA3142 /* jailbaitfinal.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DatingAgeCalcAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatingAgeCalcAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DatingAgeCalcAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatingAgeCalcAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DatingAgeCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingAgeCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* DatingAgeCalcViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatingAgeCalcViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* DatingAgeCalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatingAgeCalcViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* DatingAgeCalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatingAgeCalcViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* DatingAgeCalc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatingAgeCalc_Prefix.pch; sourceTree = "<group>"; };
+		65EF3BA81112620A00CAECD5 /* DatingAgeCalc-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DatingAgeCalc-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EF3BAB1112620B00CAECD5 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "Resources-iPad/MainWindow.xib"; sourceTree = "<group>"; };
+		65EF3BAC1112620B00CAECD5 /* DatingAgeCalcViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DatingAgeCalcViewController.xib; path = "Resources-iPad/DatingAgeCalcViewController.xib"; sourceTree = "<group>"; };
+		65EF3BC11112644400CAECD5 /* bkg-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bkg-ipad.png"; sourceTree = "<group>"; };
+		6F0FF216108BA94900F8E929 /* bkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkg.png; sourceTree = "<group>"; };
+		6FB38B7E1086AA8400AA3142 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6FB38B7F1086AA8400AA3142 /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
+		6FB38C071086CAA400AA3142 /* ballfinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballfinal.png; sourceTree = "<group>"; };
+		6FB38C081086CAA400AA3142 /* heartbreakfinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartbreakfinal.png; sourceTree = "<group>"; };
+		6FB38C091086CAA400AA3142 /* heartfinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartfinal.png; sourceTree = "<group>"; };
+		6FB38C0A1086CAA400AA3142 /* jailbaitfinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jailbaitfinal.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DatingAgeCalc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DatingAgeCalc-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EF3BA11112620A00CAECD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EF3BA21112620A00CAECD5 /* Foundation.framework in Frameworks */,
+				65EF3BA31112620A00CAECD5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* DatingAgeCalcAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DatingAgeCalcAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* DatingAgeCalcViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* DatingAgeCalcViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DatingAgeCalc.app */,
+				65EF3BA81112620A00CAECD5 /* DatingAgeCalc-iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6F0FF216108BA94900F8E929 /* bkg.png */,
+				6FB38C071086CAA400AA3142 /* ballfinal.png */,
+				6FB38C081086CAA400AA3142 /* heartbreakfinal.png */,
+				6FB38C091086CAA400AA3142 /* heartfinal.png */,
+				6FB38C0A1086CAA400AA3142 /* jailbaitfinal.png */,
+				65EF3BC11112644400CAECD5 /* bkg-ipad.png */,
+				6FB38B7E1086AA8400AA3142 /* icon.png */,
+				6FB38B7F1086AA8400AA3142 /* question.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				65EF3BAA1112620A00CAECD5 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DatingAgeCalc_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* DatingAgeCalcViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* DatingAgeCalc-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65EF3BAA1112620A00CAECD5 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				65EF3BAB1112620B00CAECD5 /* MainWindow.xib */,
+				65EF3BAC1112620B00CAECD5 /* DatingAgeCalcViewController.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DatingAgeCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DatingAgeCalc" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatingAgeCalc;
+			productName = DatingAgeCalc;
+			productReference = 1D6058910D05DD3D006BFB54 /* DatingAgeCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65EF3B921112620A00CAECD5 /* DatingAgeCalc-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65EF3BA41112620A00CAECD5 /* Build configuration list for PBXNativeTarget "DatingAgeCalc-iPad" */;
+			buildPhases = (
+				65EF3B931112620A00CAECD5 /* Resources */,
+				65EF3B9D1112620A00CAECD5 /* Sources */,
+				65EF3BA11112620A00CAECD5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DatingAgeCalc-iPad";
+			productName = DatingAgeCalc;
+			productReference = 65EF3BA81112620A00CAECD5 /* DatingAgeCalc-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DatingAgeCalc" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DatingAgeCalc */,
+				65EF3B921112620A00CAECD5 /* DatingAgeCalc-iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* DatingAgeCalcViewController.xib in Resources */,
+				6FB38B841086AA8400AA3142 /* icon.png in Resources */,
+				6FB38B851086AA8400AA3142 /* question.png in Resources */,
+				6FB38C0B1086CAA400AA3142 /* ballfinal.png in Resources */,
+				6FB38C0C1086CAA400AA3142 /* heartbreakfinal.png in Resources */,
+				6FB38C0D1086CAA400AA3142 /* heartfinal.png in Resources */,
+				6FB38C0E1086CAA400AA3142 /* jailbaitfinal.png in Resources */,
+				6F0FF217108BA94900F8E929 /* bkg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EF3B931112620A00CAECD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EF3B961112620A00CAECD5 /* icon.png in Resources */,
+				65EF3B971112620A00CAECD5 /* question.png in Resources */,
+				65EF3B981112620A00CAECD5 /* ballfinal.png in Resources */,
+				65EF3B991112620A00CAECD5 /* heartbreakfinal.png in Resources */,
+				65EF3B9A1112620A00CAECD5 /* heartfinal.png in Resources */,
+				65EF3B9B1112620A00CAECD5 /* jailbaitfinal.png in Resources */,
+				65EF3B9C1112620A00CAECD5 /* bkg.png in Resources */,
+				65EF3BAD1112620B00CAECD5 /* MainWindow.xib in Resources */,
+				65EF3BAE1112620B00CAECD5 /* DatingAgeCalcViewController.xib in Resources */,
+				65EF3BC21112644400CAECD5 /* bkg-ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DatingAgeCalcAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* DatingAgeCalcViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EF3B9D1112620A00CAECD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EF3B9E1112620A00CAECD5 /* main.m in Sources */,
+				65EF3B9F1112620A00CAECD5 /* DatingAgeCalcAppDelegate.m in Sources */,
+				65EF3BA01112620A00CAECD5 /* DatingAgeCalcViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DatingAgeCalc_Prefix.pch;
+				INFOPLIST_FILE = "DatingAgeCalc-Info.plist";
+				PRODUCT_NAME = DatingAgeCalc;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DatingAgeCalc_Prefix.pch;
+				INFOPLIST_FILE = "DatingAgeCalc-Info.plist";
+				PRODUCT_NAME = DatingAgeCalc;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		65EF3BA51112620A00CAECD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DatingAgeCalc_Prefix.pch;
+				INFOPLIST_FILE = "DatingAgeCalc-Info.plist";
+				PRODUCT_NAME = "DatingAgeCalc-iPad";
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		65EF3BA61112620A00CAECD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DatingAgeCalc_Prefix.pch;
+				INFOPLIST_FILE = "DatingAgeCalc-Info.plist";
+				PRODUCT_NAME = "DatingAgeCalc-iPad";
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		65EF3BA71112620A00CAECD5 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DatingAgeCalc_Prefix.pch;
+				INFOPLIST_FILE = "DatingAgeCalc-Info.plist";
+				PRODUCT_NAME = "DatingAgeCalc-iPad";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Distribution;
+		};
+		6FC20166108C22A9006376AC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Apollic Software, LLC";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "91218B0B-2B21-4280-8736-EF73835B2C71";
+				SDKROOT = iphoneos3.1;
+			};
+			name = Distribution;
+		};
+		6FC20167108C22A9006376AC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DatingAgeCalc_Prefix.pch;
+				INFOPLIST_FILE = "DatingAgeCalc-Info.plist";
+				PRODUCT_NAME = DatingAgeCalc;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Apollic Software, LLC";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "91218B0B-2B21-4280-8736-EF73835B2C71";
+				SDKROOT = iphoneos3.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DatingAgeCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				6FC20167108C22A9006376AC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65EF3BA41112620A00CAECD5 /* Build configuration list for PBXNativeTarget "DatingAgeCalc-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EF3BA51112620A00CAECD5 /* Debug */,
+				65EF3BA61112620A00CAECD5 /* Release */,
+				65EF3BA71112620A00CAECD5 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DatingAgeCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				6FC20166108C22A9006376AC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
